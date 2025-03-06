@@ -1,0 +1,75 @@
+body {
+    background-color: #202020;
+    margin: 0px;
+    color: #D0D0D0;
+}
+
+.content {
+    border: 2px solid #D0D0D0;
+    box-sizing: border-box;
+    width: 100vw;
+    height: 20vh;
+}
+
+.pkm-card {
+    border: 6px solid goldenrod;
+    border-radius: 20px;
+    width: 250px;
+    height: 350px;
+    padding: 20px;
+    margin: 10px;
+}
+
+
+.pkm-head {
+    display: flex;
+    justify-content: space-between;
+}
+
+.pkm-head p {
+    margin: 0px;
+}
+
+.pkm-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 95%;
+}
+
+.pkm-info th {
+    text-align: right;
+}
+
+.pkm-info td {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.pkm-info img {
+    height: 60%;
+}
+
+.added-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cloned-card-container {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
